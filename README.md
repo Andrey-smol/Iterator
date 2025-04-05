@@ -5,7 +5,7 @@
 
 Нужно написать класс, расширяющий `Iterable<Integer>`, по которому мы будем итерироваться. В процессе итерирования мы будем от него получать случайные числа в диапазоне значений. Диапазон задаётся двумя числами - минимальным и максимальным значениями. Передаются они через параметры конструктора. Таким образом, итератор по объектам нашего класса будет итерироваться по бесконечной последовательности из случайных чисел в заданом интервале:
 
-[riuo](#https://github.com/Andrey-smol/Iterator/blob/9cb30baa210185a75a6634b178f48515f140a7cc/src/main/java/ru/netology/Main.java#L6)
+[riuo](https://github.com/Andrey-smol/Iterator/blob/9cb30baa210185a75a6634b178f48515f140a7cc/src/main/java/ru/netology/Main.java#L6)
 
 ```java
 public class Randoms implements Iterable<Integer> {
